@@ -1,0 +1,16 @@
+<suite name="BankBot Suite">
+
+    <listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+
+    <test name="BankBot Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.CustomerTest"/>
+            <class name="tests.AccountTest"/>
+            <class name="tests.FundTransferTest"/>
+        </classes>
+    </test>
+
+</suite>
